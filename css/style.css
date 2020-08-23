@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,300&display=swap');
+
+/* default css start */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.navbar-brand img {
+	width: 100px;
+	height: auto;
+}
+
+.nav-link {
+  font-size: 16px;
+}
+
+#carouselExampleIndicators {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+
+.carousel-content {
+  padding-left: 30px;
+}
+
+
+.carousel-content h2 {
+  font-size: 25px;
+  color: #000;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+
+.carousel-content p {
+  font-size: 15px;
+  color: #333;
+  font-weight: 400;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+
+button.btn {
+  background: #000;
+  border: none;
+  padding: 10px 30px;
+  color: #fff;
+  border-radius: 7px;
+  text-transform: uppercase;
+}
+
+.fas.fa-arrow-right {
+  margin-left: 10px;
+}
+
+.carousel-indicators li {
+  background-color: #c4c2c2;
+  height: 15px;
+  border-radius: 50%;
+  width: 15px;
+}
+.carousel-indicators .active{
+
+  background-color: #FFC61F;
+}
+
+.section-title {
+  margin-bottom: 15px;
+}
+
+.section-title p {
+  font-size: 18px;
+  font-weight: 600;
+}
+.section-title a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: #FFC100;
+  font-weight: 600;
+}
+
+.price {
+  color: #000;
+  font-size: 17px;
+  margin-bottom: 15px;
+}
+.catagories .card img {
+  width: 100%;
+  padding: 30px;
+}
+
+
+
+.last-cata-heading{
+  color: #000;
+  position: relative;
+}
+.last-cata-heading::after {
+  position: absolute;
+  width: 170px;
+  height: 6px;
+  background: #FFB528;
+  top: 57px;
+  bottom: 0;
+  content: '';
+  left: 42%;
+  border-radius: 8px;
+}
+.categories{
+  margin: 40px auto;
+}
+.categories h1{
+    color: #fff;
+}
+
+.catagories h1 ,.showes h1 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.catagories{
+  margin-top: 40px;
+}
+
+
+.btn.btns {
+  color: #fff;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px lightgray;
+}
+
+.card-title {
+  margin-bottom: 17px;
+  font-weight: 600;
+}
+
+.card-footer{
+    border-top: none;
+}
+
+#subscribe{
+    height: 200px;
+    background-color: #feeae9;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.contact-form{
+    border: 1px solid #FF136F;
+    border-radius: 6px;
+    padding: 8px 15px;
+    margin-right: 4px;
+}
+.cata-header h2 {
+	color: #333;
+	font-weight: 600;
+}
+.cata-img {
+  max-width: 100%;
+}
+
+.categories {
+  padding: 50px 0px;
+}
+.cata-header {
+  padding-bottom: 50px;
+}
+.border-bottom {
+  width: 110px;
+  height: 10px;
+  margin: 0 auto;
+  background: linear-gradient(to right, #ffc41f 0%, #ff9c35 100%);
+  border-radius: 10px;
+}
+
+.box {
+  padding: 30px 0;
+  text-align: center;
+  border-radius: 14px 2px;
+  box-shadow: 3px 4px 13px lightgray;
+  border: none;
+}
+
+.box p {
+  color: #333;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+
+footer{
+    text-align: center;
+}
+
+
